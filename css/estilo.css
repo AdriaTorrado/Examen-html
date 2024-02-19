@@ -1,0 +1,71 @@
+body{
+    background-image:url('/imagenes/portada.jpeg') ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+header{
+    background-color: rgb(16, 16, 39);
+}
+button{
+    background-color: rgb(64, 64, 206);
+    color: white;
+}
+ul li{
+    color: white;
+    list-style: none;
+}
+#cabecera ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+#titulo_portada{
+    color: white;
+}
+main #pelis{
+    background-color: rgb(16, 16, 39);
+}
+main #premium{
+    background-color: rgb(16, 16, 39);
+}
+main #ofertas_y_sorteos{
+    background-color: rgb(16, 16, 39);
+}
+#pelis ul{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 20px;
+}
+.borde{
+    display: flex;
+    border: 1px solid white;
+    color: white;
+}
+#premium{
+    background-image: url('/imagenes/fondo_morado.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    color: white;
+}
+#premium a{
+    text-decoration: none;
+    color: rgb(27, 86, 248);
+}
+#ofretas_y_sorteos ul li{
+    color: black;
+}
+#ofretas_y_sorteos ul{
+    display: flex;
+    justify-content: space-around;
+    padding: -10px;
+}
+#ofretas_y_sorteos{
+    background-color: white;
+    border: 1px solid white;
+}
+footer{
+    background-color: rgb(16, 16, 39);
+    display: flex;
+    justify-content: space-around;
+}
